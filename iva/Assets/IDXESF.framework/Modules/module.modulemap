@@ -1,0 +1,6 @@
+framework module IDXESF {
+  umbrella header "IDXESF.h"
+
+  export *
+  module * { export * }
+}

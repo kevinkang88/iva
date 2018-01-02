@@ -1,0 +1,6 @@
+framework module iva {
+  umbrella header "iva-umbrella.h"
+
+  export *
+  module * { export * }
+}

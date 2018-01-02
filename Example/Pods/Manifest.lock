@@ -1,0 +1,16 @@
+PODS:
+  - iva (0.1.0)
+
+DEPENDENCIES:
+  - iva (from `../`)
+
+EXTERNAL SOURCES:
+  iva:
+    :path: ../
+
+SPEC CHECKSUMS:
+  iva: 9adbfcdd0f471eea0ab48b56c179c15d3921453c
+
+PODFILE CHECKSUM: 1503ccd2ba4c0b1c5a620457d136a6d632ec5a9a
+
+COCOAPODS: 1.3.1

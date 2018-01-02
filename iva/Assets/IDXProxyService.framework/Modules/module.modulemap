@@ -1,0 +1,6 @@
+framework module IDXProxyService {
+  umbrella header "IDXProxyService.h"
+
+  export *
+  module * { export * }
+}

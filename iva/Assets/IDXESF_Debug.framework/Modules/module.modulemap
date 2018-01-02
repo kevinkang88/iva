@@ -1,0 +1,6 @@
+framework module IDXESF_Debug {
+  umbrella header "IDXESF_Debug.h"
+
+  export *
+  module * { export * }
+}

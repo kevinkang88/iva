@@ -1,0 +1,22 @@
+{
+  "name": "iva",
+  "version": "0.1.0",
+  "summary": "A short description of iva.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/kevinkang88/iva",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kevinkang88": "kevinkang88@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/kevinkang88/iva.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "iva/Classes/**/*"
+}

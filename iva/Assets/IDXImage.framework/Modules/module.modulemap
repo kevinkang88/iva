@@ -1,0 +1,6 @@
+framework module IDXImage {
+  umbrella header "IDXImage.h"
+
+  export *
+  module * { export * }
+}

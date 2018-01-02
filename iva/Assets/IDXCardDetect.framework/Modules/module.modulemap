@@ -1,0 +1,6 @@
+framework module IDXCardDetect {
+  umbrella header "IDXCardDetect.h"
+
+  export *
+  module * { export * }
+}
