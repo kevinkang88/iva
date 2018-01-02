@@ -44,17 +44,16 @@ SDK that handles instant verification with mobile carriers
   s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'PromiseKit'
   s.dependency 'OHHTTPStubs'
-  s.dependency 'AFNetworkActivityLogger'
   s.subspec 'SimilityBeacon' do |sb|
-    sb.source_files = 'IVA-IOS-SDK/ASSETS/*.h'
-    sb.preserve_paths = 'IVA-IOS-SDK/Assets/*.h'
-    sb.vendored_libraries = 'IVA-IOS-SDK/Assets/*.a'
+    sb.source_files = 'iva/Assets/*.h'
+    sb.preserve_paths = 'iva/Assets/*.h'
+    sb.vendored_libraries = 'iva/Assets/*.a'
     sb.xcconfig = { 'HEADER_SEARCH_PATHS' => "${PODS_ROOT}/#{s.name}/Assets/*" }
   end
 
   s.subspec 'Confirm' do |sb|
-    sb.source_files = 'IVA-IOS-SDK/ASSETS/*.framework'
-    sb.vendored_framework = 'IVA-IOS-SDK/Assets/confirm_sdk.framework'
+    sb.source_files = 'iva/Assets/*.framework'
+    sb.vendored_framework = 'iva/Assets/confirm_sdk.framework'
     sb.xcconfig = { 'HEADER_SEARCH_PATHS' => "${PODS_ROOT}/#{s.name}/Assets/*" }
   end
 end

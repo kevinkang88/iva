@@ -1,9 +1,9 @@
 {
   "name": "iva",
   "version": "0.1.0",
-  "summary": "A short description of iva.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/kevinkang88/iva",
+  "summary": "Instant verification with mobile carriers",
+  "description": "SDK that handles instant verification with mobile carriers",
+  "homepage": "https://www.neustar.biz/",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -18,5 +18,36 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "iva/Classes/**/*"
+  "source_files": "iva/Classes/**/*",
+  "frameworks": "CoreTelephony",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ],
+    "PromiseKit": [
+
+    ],
+    "OHHTTPStubs": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "SimilityBeacon",
+      "source_files": "iva/Assets/*.h",
+      "preserve_paths": "iva/Assets/*.h",
+      "vendored_libraries": "iva/Assets/*.a",
+      "xcconfig": {
+        "HEADER_SEARCH_PATHS": "${PODS_ROOT}/iva/Assets/*"
+      }
+    },
+    {
+      "name": "Confirm",
+      "source_files": "iva/Assets/*.framework",
+      "vendored_frameworks": "iva/Assets/confirm_sdk.framework",
+      "xcconfig": {
+        "HEADER_SEARCH_PATHS": "${PODS_ROOT}/iva/Assets/*"
+      }
+    }
+  ]
 }

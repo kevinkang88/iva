@@ -1,5 +1,63 @@
 PODS:
-  - iva (0.1.0)
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - iva (0.1.0):
+    - AFNetworking (~> 2.3)
+    - iva/Confirm (= 0.1.0)
+    - iva/SimilityBeacon (= 0.1.0)
+    - OHHTTPStubs
+    - PromiseKit
+  - iva/Confirm (0.1.0):
+    - AFNetworking (~> 2.3)
+    - OHHTTPStubs
+    - PromiseKit
+  - iva/SimilityBeacon (0.1.0):
+    - AFNetworking (~> 2.3)
+    - OHHTTPStubs
+    - PromiseKit
+  - OHHTTPStubs (6.1.0):
+    - OHHTTPStubs/Default (= 6.1.0)
+  - OHHTTPStubs/Core (6.1.0)
+  - OHHTTPStubs/Default (6.1.0):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (6.1.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (6.1.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (6.1.0)
+  - PromiseKit (4.5.0):
+    - PromiseKit/Foundation (= 4.5.0)
+    - PromiseKit/QuartzCore (= 4.5.0)
+    - PromiseKit/UIKit (= 4.5.0)
+  - PromiseKit/CorePromise (4.5.0)
+  - PromiseKit/Foundation (4.5.0):
+    - PromiseKit/CorePromise
+  - PromiseKit/QuartzCore (4.5.0):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (4.5.0):
+    - PromiseKit/CorePromise
 
 DEPENDENCIES:
   - iva (from `../`)
@@ -9,7 +67,10 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  iva: 9adbfcdd0f471eea0ab48b56c179c15d3921453c
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  iva: 03436529c18a89e50808199f8f261bae226c4c65
+  OHHTTPStubs: 1e21c7d2c084b8153fc53d48400d8919d2d432d0
+  PromiseKit: 9c1d9f6d7b65e3951a90bea7f407c56972be5d8e
 
 PODFILE CHECKSUM: 1503ccd2ba4c0b1c5a620457d136a6d632ec5a9a
 

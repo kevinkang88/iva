@@ -10,6 +10,12 @@
 #endif
 #endif
 
+#import "NSTRBackScanner.h"
+#import "NSTRDeviceFingerprint.h"
+#import "NSTREnrichedHeaders.h"
+#import "NSTRIPFinder.h"
+#import "NSTRNeustarIVA.h"
+#import "SimilityBeacon.h"
 
 FOUNDATION_EXPORT double ivaVersionNumber;
 FOUNDATION_EXPORT const unsigned char ivaVersionString[];
