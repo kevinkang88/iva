@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'iva_Example' do
+  pod 'iva', :path => '../'
+
+  target 'iva_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
